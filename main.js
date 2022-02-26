@@ -5,8 +5,6 @@ chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
     var activeTab = tabs[0];
     // var pendingTabURL = activeTab.pendingUrl;
     var activeTabURL = activeTab.url;
-
-    document.getElementById("text").innerHTML = activeTabURL;
     
     if (activeTabURL.includes("https://medium.com/")){
         chrome.tabs.update({
