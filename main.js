@@ -1,2 +1,4 @@
-document.getElementById("text").innerText = `The Full URL of this page is ${window.location.href}`;
-// window.location.assign("https://mirror-medium.com/");
+var currentURL = window.location.href;
+ if (currentURL.includes("medium.com")){
+     window.location.assign(`https://mirror-medium.com/?m=${currentURL}`);
+ }

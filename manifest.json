@@ -1,0 +1,11 @@
+{
+    "name": "Unblock Medium",
+    "version": "1.0.0",
+    "description": "Bypass Medium Website Blocking in some countries",
+    "manifest_version": 3,
+    "author": "Medhat ",
+    "action":{
+        "default_popup": "index.html",
+        "default_title": "Unblock Medium"
+    }
+}
